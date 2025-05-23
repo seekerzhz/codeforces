@@ -29,7 +29,7 @@ void dij(int n, vector<int>v[] , vector<array<int, 2>>&dis) {
 void solve() {
     int n,m,l;
     cin >> n >> m >> l;
-    cout << n << " " << m << " " << l << endl;
+//    cout << n << " " << m << " " << l << endl;
     vector<int> a(l,0);
     ll odds = 0x3f3f3f3f+1;
     ll sum = 0;
