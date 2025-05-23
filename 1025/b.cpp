@@ -27,7 +27,7 @@ void solve() {
 
 int main() {
     INPUT("in.txt");
-    cout << "hello world" << endl;
+    //cout << "hello world" << endl;
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int tc;
