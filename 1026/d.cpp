@@ -7,14 +7,13 @@ using namespace std;
 #define INPUT(from) ((void)0)
 #endif
 typedef long long ll;
-using ll = long long;
 
 struct Edge {
     int to;
     int w;
 };
 
-bool judge(int x, const vector<vector<Edge>>& g, const vector<int>& b) {
+bool judge(int x, vector<vector<Edge>> g, vector<int> b) {
     int n = b.size() - 1;
     vector<bool> flag(n + 1, 0);
     vector<int> battery(n + 1, -1);
