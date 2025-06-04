@@ -9,7 +9,12 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-
+    int a,b,c,d;
+    cin >> a >> b >> c >> d;
+    auto t1 = min(a,c) , t2 = min(b,d);
+    if(t1 >= t2) {
+        puts("Gellyfish");
+    } else puts("Flower");
 }
 
 int main() {

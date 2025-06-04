@@ -9,7 +9,11 @@ using namespace std;
 typedef long long ll;
 
 void solve() {
-
+    ll n;
+    cin >> n;
+    int cnt = 0;
+    while(n!=0) cnt++,n/=2;
+    cout << cnt*2+1 << endl;
 }
 
 int main() {

@@ -8,6 +8,7 @@ using namespace std;
 #endif
 typedef long long ll;
 
+
 struct Edge {
     int to;
     int w;
